@@ -48,7 +48,7 @@ case '+':
 cout<< ADD_DEBIT;
 cout<< ADD_CREDIT;
 if (ADD_DEBIT>=ADD_CREDIT){
-    cout << "YOUR  "<< " "<<BANK_LOANS_AMOUNT+ACCOUNTS_PAYABLE_AMOUNT<< "\n";
+    cout << "YOUR ACCOUNT IS DEBIT "<< " "<<ADD_DEBIT-ADD_CREDIT<< "\n";
 }
 return 0;
 }
